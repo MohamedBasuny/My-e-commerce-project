@@ -1,0 +1,67 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="To DO Test">
+    <test name="registrationTests">
+        <classes>
+            <class name="com.luma.test.registerTests">
+            <parameter name="enterYourFirstName" value="ali"/>
+            <parameter name="enterYourLastName" value="ahmed"/>
+            <parameter name="enterYourEmail" value="nerif67231@inkiny.com"/>
+            <parameter name="enterYourPassword" value="123456789BR@@"/>
+            <parameter name="enterYourConfirmationPass" value="123456789BR@@"/>
+            </class>
+            <class name="com.luma.test.registerTests">
+                <parameter name="enterFirstName" value="ali"/>
+                <parameter name="enterLastName" value="ahmed"/>
+                <parameter name="enterExistedEmail" value="nerif67231@inkiny.com"/>
+                <parameter name="enterPassword" value="123456789BR@@"/>
+                <parameter name="enterConfirmationPass" value="123456789BR@@"/>
+            </class>
+        </classes>
+    </test>
+    <test name="loginTests">
+        <classes>
+            <class name="com.luma.test.loginTests">
+                <parameter name="CorrectYourEmail" value="nerif67231@inkiny.com"/>
+                <parameter name="CorrectYourPassword" value="123456789BR@@"/>
+            </class>
+            <class name="com.luma.test.loginTests">
+                <parameter name="InCorrectYourEmail" value="xnerif67231@inkiny.com"/>
+                <parameter name="IncorrectYourPassword" value="1456789BR@@"/>
+            </class>
+        </classes>
+    </test>
+    <test name="logOutTests">
+        <classes>
+            <class name="com.luma.test.logOutTests">
+                <parameter name="CorrectYourEmail" value="nerif67231@inkiny.com"/>
+                <parameter name="CorrectYourPassword" value="123456789BR@@"/>
+            </class>
+        </classes>
+    </test>
+    <test name="verifyAddingProductTests">
+        <classes>
+            <class name="com.luma.test.productsTests">
+                <parameter name="CorrectYourEmail" value="nerif67231@inkiny.com"/>
+                <parameter name="CorrectYourPassword" value="123456789BR@@"/>
+            </class>
+        </classes>
+    </test>
+    <test name="searchProductTests">
+        <classes>
+            <class name="com.luma.test.searchProductTests">
+                <parameter name="CorrectYourEmail" value="nerif67231@inkiny.com"/>
+                <parameter name="CorrectYourPassword" value="123456789BR@@"/>
+            </class>
+        </classes>
+    </test>
+    <test name="removeProductTests">
+        <classes>
+            <class name="com.luma.test.removeProductTests">
+                <parameter name="CorrectYourEmail" value="nerif67231@inkiny.com"/>
+                <parameter name="CorrectYourPassword" value="123456789BR@@"/>
+            </class>
+        </classes>
+    </test>
+</suite>
+
+
