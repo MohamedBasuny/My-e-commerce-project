@@ -2,6 +2,7 @@ Web Automation Project combines:
 Selenium
 POM
 TestNG
+Java
 
 The project covers the following functionalities:
 1-Registration
